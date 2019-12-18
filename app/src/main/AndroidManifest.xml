@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="putralaksana.puja.belajartentangindonesia">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuUtama"
+            android:theme="@style/NoActionBar" />
+        <activity android:name=".materi" />
+        <activity android:name=".negara" />
+        <activity android:name=".wilayah" />
+        <activity android:name=".iklim" />
+        <activity android:name=".budaya" />
+        <activity android:name=".kerajaan" />
+        <activity android:name=".peninggalan" />
+        <activity android:name=".pahlawan" />
+        <activity android:name=".wisata" />
+        <activity android:name=".penjelasan" />
+        <activity android:name=".alam_data" />
+        <activity android:name=".lagu" />
+        <activity android:name=".lagu_daerah" />
+        <activity android:name=".lagu_nasional" />
+        <activity android:name=".Idn_raya" />
+        <activity android:name=".Garuda" />
+        <activity android:name=".Cipta" />
+        <activity android:name=".Syukur" />
+        <activity android:name=".satu_nusa" />
+        <activity android:name=".rayuan" />
+        <activity android:name=".Merdeka" />
+        <activity android:name=".Halo_bandung" />
+        <activity android:name=".tumpah_darah" />
+        <activity android:name=".Bagimu_negri" />
+        <activity android:name=".kambing" />
+        <activity android:name=".apuse" />
+        <activity android:name=".bubuy" />
+        <activity android:name=".bungong" />
+        <activity android:name=".periuk" />
+        <activity android:name=".gundul" />
+        <activity android:name=".kampuang" />
+        <activity android:name=".patokaan" />
+        <activity android:name=".sayange" />
+        <activity android:name=".surilang" />
+        <activity android:name=".alam" />
+        <activity android:name=".penjelasan2" />
+        <activity android:name=".tentang"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "606304661081",
+    "firebase_url": "https://belajar-tentang-indonesia.firebaseio.com",
+    "project_id": "belajar-tentang-indonesia",
+    "storage_bucket": "belajar-tentang-indonesia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606304661081:android:04e7d8e4887fbc26",
+        "android_client_info": {
+          "package_name": "putralaksana.puja.belajartentangindonesia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606304661081-81ehvjeecepaj3pt877gg4f7100lm2gn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "putralaksana.puja.belajartentangindonesia",
+            "certificate_hash": "dc5ae97cd58d8bff4f72e54e43d98c486f8a0aa9"
+          }
+        },
+        {
+          "client_id": "606304661081-et3nrjib2gucneiaddvf84m6lqout7n1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE2FdmPaaIDqtd9BVApx4sJ1ObwZdnrAU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606304661081-et3nrjib2gucneiaddvf84m6lqout7n1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

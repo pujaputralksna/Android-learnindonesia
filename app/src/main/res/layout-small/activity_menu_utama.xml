@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="putralaksana.puja.belajartentangindonesia.MenuUtama">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/menutama1"
+            android:id="@+id/ImgMenutama"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ImgMenutama"
+            android:text="Belajar Tentang Indonesia"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:id="@+id/btMateri"
+            android:layout_below="@+id/ImgMenutama"
+            android:layout_marginTop="60dp"
+            android:text="Materi"
+            android:drawableLeft="@drawable/books"
+            android:background="#FF0000"
+            android:layout_centerHorizontal="true"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:id="@+id/btLagu"
+            android:layout_below="@+id/btMateri"
+            android:layout_marginTop="10dp"
+            android:text="Lagu"
+            android:drawableLeft="@drawable/radio"
+            android:background="#FF0000"
+            android:layout_centerHorizontal="true"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:id="@+id/btTentang"
+            android:layout_below="@+id/btLagu"
+            android:layout_marginTop="10dp"
+            android:text="Tentang"
+            android:drawableLeft="@drawable/boss"
+            android:background="#FF0000"
+            android:layout_centerHorizontal="true"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:id="@+id/btKeluar"
+            android:layout_below="@+id/btTentang"
+            android:layout_marginTop="10dp"
+            android:text="Keluar"
+            android:drawableLeft="@drawable/exit"
+            android:background="#FF0000"
+            android:layout_centerHorizontal="true"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Belajar Tentang Indonesia</string>
+    <string name="isi_tentang">Aplikasi ini dibuat untuk memudahkan anda yang ingin mengenal Indonesia terutama anda yang masih pelajar. Mari tingkatkan wawasan kebangsaan kita agar kita semakin mencintai bangsa ini</string>
+    <string name="caraapp">Aplikasi ini terdiri dari 4 menu utama yaitu Materi, Lagu, Tentang dan Keluar.\n1. Menu materi adalah menu yang berisi daftar materi, daftar sub materi dan penjelasan dari sub materi tersebut. Penjelasan materi tersebut disertai dengan gambar.\n2. Menu lagu adalah menu yang berisi daftar dari lagu nasional dan lagu daerah. Lagu-lagu tersebut dapat diputar dan didengarkan.\n3. Menu tentang adalah menu yang berisi tentang aplikasi dan cara penggunaan aplikasi.\n4. Menu keluar adalah menu yang berisi pilihan untuk keluar dari aplikasi atau tetap berada di dalam aplikasi.</string>
+</resources>
